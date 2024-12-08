@@ -147,7 +147,7 @@ def predict(image, model):
 model = load_model()
 
 # Streamlit app
-st.title("Multi-Class Classification with Two-Branch Model")
+st.title("Multi-Class Classification Model")
 st.write("Upload an image to classify it into one of three classes.")
 
 # File uploader
