@@ -127,7 +127,7 @@ def preprocess_image(image):
 def predict(image, model):
     with torch.no_grad():
         outputs = model(image)
-        probabilities = nn.functional.softmax(outputs, dim=1).cpu()
+        probabilities = nn.functional.softmax(outputs, dim=1).cpu().numpy()
         predicted_class = np.argmax(probabilities)
     return predicted_class, probabilities[0]
 
