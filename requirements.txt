@@ -3,5 +3,5 @@ torchvision==0.17.1
 matplotlib
 streamlit
 scipy
-numpy
+numpy<2
 Pillow
