@@ -1,2 +1,3 @@
-torch==1.10.1
- # Specify the version that matches your local environment
+torch==1.8.0
+python==3.9.0
+
