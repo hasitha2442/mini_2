@@ -1,1 +1,2 @@
-torch==1.13.0  # Specify the version that matches your local environment
+torch==1.12.1
+ # Specify the version that matches your local environment
