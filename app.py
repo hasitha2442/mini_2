@@ -107,7 +107,7 @@ class EnsembleEfficientNet_TwoBranch(nn.Module):
 # Cache the model loading process
 @st.cache_resource
 def load_model():
-    model_path = '/content/model_epoch_58.pth'
+    model_path = 'model_epoch_58.pth'
     model = EnsembleEfficientNet_TwoBranch(embed_dim=24)  # Ensure to match saved model's embed_dim
     model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
     model.eval()
