@@ -1,2 +1,2 @@
-conda
+conda==4.3.16
 torch==1.9.0
