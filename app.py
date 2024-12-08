@@ -119,7 +119,7 @@ class EfficientNetClassifier(nn.Module):
 # Cache the model loading process
 @st.cache_resource
 def load_model():
-    model_path = '_epoch_21.pth'
+    model_path = '_epoch_39.pth'
     model = EfficientNetClassifier(num_classes=3)  # Ensure to match saved model's embed_dim
     model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
     model.eval()
