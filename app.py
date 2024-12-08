@@ -1,3 +1,4 @@
+!pip install torch==1.13.0  # Specify the version that matches your local environment
 import streamlit as st
 import torch
 import torch.nn as nn
